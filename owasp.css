@@ -7,8 +7,12 @@
 }
 
 .top10-panel {
-  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03));
-  border: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.03)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 28px;
   padding: 36px;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
@@ -26,8 +30,8 @@
   min-width: 88px;
   padding: 14px 20px;
   border-radius: 999px;
-  background: rgba(99, 242, 208, 0.16);
-  color: #63f2d0;
+  background: rgba(159, 203, 152, 0.16);
+  color: #9fcb98;
   font-weight: 800;
   letter-spacing: 1px;
   text-align: center;
@@ -36,7 +40,7 @@
 .top10-subtitle {
   font-size: 14px;
   font-weight: 700;
-  color: #63f2d0;
+  color: #9fcb98;
   margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -91,7 +95,7 @@
 
 .top10-section h3 {
   font-size: 18px;
-  color: #63f2d0;
+  color: #9fcb98;
   margin-bottom: 16px;
 }
 
@@ -155,7 +159,7 @@ pre code {
 }
 
 .top10-sidebar-head p {
-  color: #63f2d0;
+  color: #9fcb98;
   font-weight: 700;
   margin-bottom: 6px;
 }
@@ -180,7 +184,10 @@ pre code {
   background: rgba(255, 255, 255, 0.03);
   color: #d2d9e3;
   cursor: pointer;
-  transition: background 0.25s, border-color 0.25s, transform 0.2s;
+  transition:
+    background 0.25s,
+    border-color 0.25s,
+    transform 0.2s;
   display: grid;
   grid-template-columns: 48px 1fr;
   align-items: center;
@@ -199,8 +206,8 @@ pre code {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: rgba(99, 242, 208, 0.12);
-  color: #63f2d0;
+  background: rgba(159, 203, 152, 0.12);
+  color: #9fcb98;
   font-weight: 800;
 }
 
@@ -217,13 +224,13 @@ pre code {
 }
 
 .top10-nav-button.active {
-  background: rgba(99, 242, 208, 0.18);
-  border-color: #63f2d0;
+  background: rgba(159, 203, 152, 0.18);
+  border-color: #9fcb98;
   color: #ffffff;
 }
 
 .top10-nav-button.active span {
-  background: #63f2d0;
+  background: #9fcb98;
   color: #081018;
 }
 

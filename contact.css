@@ -234,3 +234,12 @@
     font-size: 24px;
   }
 }
+.team-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.member-links {
+  margin-top: 30px;
+}
